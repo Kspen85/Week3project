@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--link to bootstrap-->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <!--different background color for each page -->
+    <div class="container-sm bg-info">
+        <header id="header justify-content: text-center" class="bg-light">
+            <!--Nav bar-->
+      <div class="container">
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">Medical Imaging</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+              aria-control="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index2.html">About Us</a>            
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          More Information
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="https://www.fda.gov/radiation-emitting-products/radiation-emitting-products-and-procedures/medical-imaging">FDA</a></li>
+                          <li><a class="dropdown-item" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6186003/">NIH</a></li>
+                          <li><a class="dropdown-item" href="https://www.cdc.gov/nceh/features/medical-imaging-procedures/index.html">CDC</a></li>
+                      </ul>            
+                  </li>
+              </ul>
+          </nav>
+          </div>
+      </header>
+    </header>
+    <div class="main-content container text-center bg-light">
+        <div class="row">
+            <div class="col-sm-8 mb-3 mb-sm-0">
+        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header bg-info" >About Me</div>
+            <div class="card-body bg-info">
+              <p class="card-text">Hello! I have been a MRI Technologist for almost ten years. I have a bachelor's degree in Magnetic Resonance Imaging. I have worked in several different settings, but primarily in a hospital.</p>
+                </div>
+            </div>
+        </div>
+          <div class="col-sm-4">
+          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header bg-info">What kind of imaging have I experienced?</div>
+            <div class="card-body bg-info">
+              <p class="card-text">I have experienced several different types of imaging including X-rays, Ultrasound and MRI's so far. All of which have been a completely different experience.</p>
+            </div>
+        </div>
+    </div>
+        
+        <main class="main area">Blah</main>
+
+        <div id="main-container" class="container text-center pt-2 pb-5">
+            <div>
+              <img
+                src="https://eljayxray.com/template/siteimages/Medical-Imaging-Xray-Questions.jpg"
+                class="img-fluid"
+                alt="a hand holding pictures of different medical images with a MRI machine in the background with patient on the table and a technician beside the table."
+                width="400"
+              />
+            </div>
+    </div>
+    <footer class="container footer bg-dark"><h3>Questions? Contact us using the form below!</h3>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">What would you like to know more about?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+    </footer>
+    </div>
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
